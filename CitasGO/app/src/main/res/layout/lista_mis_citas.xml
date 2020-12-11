@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/gestion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIA"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="00:00"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/servicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVICIO"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        />
+
+</LinearLayout>
